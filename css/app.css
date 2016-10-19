@@ -5,7 +5,6 @@ html, body {
   padding: 0; }
 
 body {
-  background-color: #4cae4c;
   margin: 0;
   padding: 0; }
 
@@ -44,7 +43,6 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #eb9316;
     display: inline-block;
     float: left; }
     #four_streams_with_chat_container #four_streams section {
@@ -59,7 +57,6 @@ body {
     margin: 0;
     float: left;
     padding: 0;
-    background-color: #2b669a;
     height: 100%;
     display: inline-block; }
     #four_streams_with_chat_container #four_chat section {
@@ -84,29 +81,5 @@ body {
       #twelve_streams_container #twelve_streams section iframe {
         width: 100%;
         height: auto; }
-    #twelve_streams_container #twelve_streams #stream1 {
-      background-color: #2aabd2; }
-    #twelve_streams_container #twelve_streams #stream2 {
-      background-color: #337ab7; }
-    #twelve_streams_container #twelve_streams #stream3 {
-      background-color: #b92c28; }
-    #twelve_streams_container #twelve_streams #stream4 {
-      background-color: #eb9316; }
-    #twelve_streams_container #twelve_streams #stream5 {
-      background-color: #2aabd2; }
-    #twelve_streams_container #twelve_streams #stream6 {
-      background-color: #337ab7; }
-    #twelve_streams_container #twelve_streams #stream7 {
-      background-color: #b92c28; }
-    #twelve_streams_container #twelve_streams #stream8 {
-      background-color: #eb9316; }
-    #twelve_streams_container #twelve_streams #stream9 {
-      background-color: #2aabd2; }
-    #twelve_streams_container #twelve_streams #stream10 {
-      background-color: #337ab7; }
-    #twelve_streams_container #twelve_streams #stream11 {
-      background-color: #b92c28; }
-    #twelve_streams_container #twelve_streams #stream12 {
-      background-color: #eb9316; }
 
 /*# sourceMappingURL=app.css.map */
