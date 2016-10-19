@@ -22,14 +22,6 @@ body {
     #streams_container section iframe {
       width: 100%;
       height: auto; }
-  #streams_container #stream1 {
-    background-color: #2aabd2; }
-  #streams_container #stream2 {
-    background-color: #337ab7; }
-  #streams_container #stream3 {
-    background-color: #b92c28; }
-  #streams_container #stream4 {
-    background-color: #eb9316; }
 
 #stream_chat_container {
   height: 100%;
