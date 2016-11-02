@@ -25,7 +25,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEBUG = True
 
 ALLOWED_HOSTS = []
-SECRET_KEY = 'xq%oe9-v83k)kw_3yimskaad#+e&05^uxd69+@ad*(k!ptzesl'
 
 
 # Application definition
@@ -37,7 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'turtles',
+    'stream',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -103,12 +102,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# try:
-#     import
-# except ImportError as e:
-#     print(e)
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
-# try:
-#     from local_settings import *
-# except:
-#     print ('No local settings file')
+
+try:
+    from .local_settings import *
+except:
+    print ('No local settings file')
+    pass
