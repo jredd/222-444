@@ -1,3 +1,6 @@
+from __future__ import absolute_import
 from django.contrib import admin
+from . import models
 
-# Register your models here.
+admin.site.register(models.FourVideoStream)
+admin.site.register(models.SixVideoStream)
