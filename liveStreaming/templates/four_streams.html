@@ -3,28 +3,30 @@
 {% block title %}Four Streams{% endblock title %}
 
 {% block content %}
+    <div id="stream_four" class="container-fluid">
     {% if stream.chat %}
-        <div id="stream_four" class="container-fluid col-xs-10">
-    {% else %}
-        <div id="stream_four" class="container-fluid">
+        <div id="streams_container" class="col-xs-9">
     {% endif %}
-        <section id="stream1">
+            <section id="stream1">
             <iframe id="iframe1" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video1 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-        </section>
-        <section id="stream2">
-            <iframe id="iframe2" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video2 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-        </section>
-        <section id="stream3">
-            <iframe id="iframe3" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video3 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-        </section>
-        <section id="stream4">
-            <iframe id="iframe4" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video4 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-        </section>
-    </div>
+            </section>
+            <section id="stream2">
+                <iframe id="iframe2" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video2 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+            </section>
+            <section id="stream3">
+                <iframe id="iframe3" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video3 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+            </section>
+            <section id="stream4">
+                <iframe id="iframe4" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video4 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+            </section>
     {% if stream.chat %}
-            <section id="chat_container col-xs-3">
+        </div>
+        <div id="chat_container" class="col-xs-3">
+            <section>
                 <iframe id="chat_iframe" width="560" height="315" src="https://www.youtube.com/live_chat?v={{ stream.chat }}&embed_domain=104.131.169.148" frameborder="0" allowfullscreen></iframe>
             </section>
-
+        </div>
     {% endif %}
+    </div>
+
 {% endblock content %}

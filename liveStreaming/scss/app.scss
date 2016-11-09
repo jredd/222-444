@@ -32,11 +32,18 @@ html, body {
   }
 }
 
+#streams_container {
+    padding: 0;
+    height: 100%;
+    margin: 0;
+  }
+
 #stream_four{
   height: inherit;
   display: block;
   margin: 0;
   padding: 0;
+
   section {
     iframe {
       width: 100%;
@@ -102,6 +109,7 @@ html, body {
   height: 100%;
   display: block;
   padding: 0;
+  background-color: #761c19;
   section {
     padding: 0;
     height: 100%;

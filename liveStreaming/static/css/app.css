@@ -22,6 +22,11 @@ html, body {
       -moz-box-shadow: 4px 4px 18px -8px #4f4f4f;
       box-shadow: 4px 4px 18px -8px #4f4f4f; }
 
+#streams_container {
+  padding: 0;
+  height: 100%;
+  margin: 0; }
+
 #stream_four {
   height: inherit;
   display: block;
@@ -73,7 +78,8 @@ html, body {
 #chat_container {
   height: 100%;
   display: block;
-  padding: 0; }
+  padding: 0;
+  background-color: #761c19; }
   #chat_container section {
     padding: 0;
     height: 100%; }
