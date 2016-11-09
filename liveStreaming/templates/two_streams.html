@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}Six Streams{% endblock title %}
+
+{% block content %}
+    <div id="stream_two" class="container-fluid">
+
+        {% if stream.chat %}
+            <div id="streams_container" class="col-xs-9">
+        {% endif %}
+                <section id="stream1">
+                    <iframe id="iframe1" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video1 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                </section>
+                <section id="stream2">
+                    <iframe id="iframe2" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video2 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                </section>
+    {% if stream.chat %}
+        </div>
+        <div id="chat_container" class="col-xs-3">
+            <section id="chat">
+                <iframe id="chat_iframe" width="560" height="315" src="https://www.youtube.com/live_chat?v={{ stream.chat }}&embed_domain=104.131.169.148" frameborder="0" allowfullscreen></iframe>
+            </section>
+        </div>
+
+    {% endif %}
+</div>
+
+{% endblock content %}
