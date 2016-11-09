@@ -8,25 +8,24 @@
         {% if stream.chat %}
             <div id="streams_container" class="col-xs-9">
         {% endif %}
-            <section id="stream1">
-                <iframe id="iframe1" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video1 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-            </section>
-            <section id="stream2">
-                <iframe id="iframe2" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video2 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-            </section>
-            <section id="stream3">
-                <iframe id="iframe3" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video3 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-            </section>
-            <section id="stream4">
-                <iframe id="iframe4" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video4 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-            </section>
-            <section id="stream5">
-                <iframe id="iframe5" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video5 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-            </section>
-            <section id="stream6">
-                <iframe id="iframe6" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video6 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-            </section>
-        </div>
+                <section id="stream1">
+                    <iframe id="iframe1" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video1 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                </section>
+                <section id="stream2">
+                    <iframe id="iframe2" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video2 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                </section>
+                <section id="stream3">
+                    <iframe id="iframe3" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video3 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                </section>
+                <section id="stream4">
+                    <iframe id="iframe4" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video4 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                </section>
+                <section id="stream5">
+                    <iframe id="iframe5" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video5 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                </section>
+                <section id="stream6">
+                    <iframe id="iframe6" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video6 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                </section>
     {% if stream.chat %}
         </div>
         <div id="chat_container" class="col-xs-3">
@@ -36,4 +35,6 @@
         </div>
 
     {% endif %}
+</div>
+
 {% endblock content %}
