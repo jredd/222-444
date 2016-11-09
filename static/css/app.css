@@ -27,6 +27,24 @@ html, body {
   height: 100%;
   margin: 0; }
 
+#stream_two {
+  height: inherit;
+  display: block;
+  margin: 0;
+  padding: 0; }
+  #stream_two section {
+    display: inline-flex;
+    float: left;
+    height: 100%;
+    width: 50%; }
+    #stream_two section iframe {
+      width: 100%;
+      height: auto; }
+  #stream_two #stream1 {
+    background-color: #2aabd2; }
+  #stream_two #stream2 {
+    background-color: #337ab7; }
+
 #stream_four {
   height: inherit;
   display: block;
