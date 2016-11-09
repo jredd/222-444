@@ -70,4 +70,15 @@ html, body {
   #stream_six #stream6 {
     background-color: #761c19; }
 
+#chat_container {
+  height: 100%;
+  display: block;
+  padding: 0; }
+  #chat_container section {
+    padding: 0;
+    height: 100%; }
+    #chat_container section iframe {
+      width: 100%;
+      height: 100%; }
+
 /*# sourceMappingURL=app.css.map */
