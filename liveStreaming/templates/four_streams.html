@@ -8,24 +8,22 @@
     {% else %}
         <div id="stream_four" class="container-fluid">
     {% endif %}
-{#    <div id="stream_four" class="container-fluid">#}
         <section id="stream1">
-{#            <iframe id="iframe1" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video1 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>#}
+            <iframe id="iframe1" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video1 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
         </section>
         <section id="stream2">
-{#            <iframe id="iframe2" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video2 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>#}
+            <iframe id="iframe2" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video2 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
         </section>
         <section id="stream3">
-{#            <iframe id="iframe3" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video3 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>#}
+            <iframe id="iframe3" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video3 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
         </section>
         <section id="stream4">
-{#            <iframe id="iframe4" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video4 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>#}
+            <iframe id="iframe4" width="560" height="315" src="https://www.youtube.com/embed/{{ stream.video4 }}?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
         </section>
     </div>
     {% if stream.chat %}
         <div id="chat_warpper col-xs-2">
             <section id="chat_container">
-{#              <iframe id="chat_iframe" width="560" height="315" src="https://www.youtube.com/live_chat?v=MMvnn9fisNI&embed_domain=localhost" frameborder="0" allowfullscreen></iframe>#}
                 <iframe id="chat_iframe" width="560" height="315" src="https://www.youtube.com/live_chat?v={{ stream.chat }}&embed_domain=104.131.169.148" frameborder="0" allowfullscreen></iframe>
             </section>
         </div>
